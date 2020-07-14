@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: demokgok <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/13 11:56:55 by demokgok          #+#    #+#             */
-/*   Updated: 2020/07/14 11:29:26 by demokgok         ###   ########.fr       */
+/*   Created: 2020/07/14 08:10:15 by demokgok          #+#    #+#             */
+/*   Updated: 2020/07/14 08:18:10 by demokgok         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,19 +16,20 @@ void ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
-void ft_putnbr(int nb)
+
+void ft_print_numbers(void)
 {
-	char* c_nb = (char)nb;
-	int i = 0;
-	while(c_nb[i] != '\0')
+	char a;
+	a = '1';
+	while(a <= '9')
 	{
-		ft_putchar(c_nb[i]);
-		i++;
+		ft_putchar(a);
+		a++;
 	}
 }
 
-int main()
+int main(void)
 {
-	ft_putnbr(42);
+	ft_print_numbers();
 	return (0);
 }

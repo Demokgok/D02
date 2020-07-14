@@ -6,31 +6,33 @@
 /*   By: demokgok <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 09:27:22 by demokgok          #+#    #+#             */
-/*   Updated: 2020/07/13 09:46:24 by demokgok         ###   ########.fr       */
+/*   Updated: 2020/07/14 07:46:23 by demokgok         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
+#include    <unistd.h>
 
-
-void ft_putchar( char c)
-{
+//int  ft_putchar( char c)
+//{
 	write(1, &c, 1);
+	return (0);
+//}
 
-void ft_print_alphabet(void)
+//void ft_print_alphabet(void)
 {
-	char b;
+	char a;
 
-	b='a';
-	while (b<='z')
+	a='a';
+	while (a<='z')
 	{
-		ft_putchar(b);
-		b-=-1;
+		ft_putchar(a);
+		a++;
 	}
+
+	ft_putchar ('\n');
 }
 int main()
 {
 	ft_print_alphabet();
-	ft_putchar('\n');
 	return (0);
 }

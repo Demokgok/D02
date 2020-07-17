@@ -6,7 +6,7 @@
 /*   By: demokgok <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 09:49:09 by demokgok          #+#    #+#             */
-/*   Updated: 2020/07/14 08:05:46 by demokgok         ###   ########.fr       */
+/*   Updated: 2020/07/17 17:06:32 by demokgok         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,3 @@ void ft_print_reverse_alphabet(void)
 	}
 }
 
-int main(void)
-
-{
-	ft_print_reverse_alphabet();
-	return (0);
-}

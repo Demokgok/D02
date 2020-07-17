@@ -6,7 +6,7 @@
 /*   By: demokgok <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/14 08:10:15 by demokgok          #+#    #+#             */
-/*   Updated: 2020/07/14 08:18:10 by demokgok         ###   ########.fr       */
+/*   Updated: 2020/07/17 17:07:42 by demokgok         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,4 @@ void ft_print_numbers(void)
 	}
 }
 
-int main(void)
-{
-	ft_print_numbers();
-	return (0);
-}
+

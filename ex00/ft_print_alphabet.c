@@ -6,19 +6,19 @@
 /*   By: demokgok <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 09:27:22 by demokgok          #+#    #+#             */
-/*   Updated: 2020/07/14 07:46:23 by demokgok         ###   ########.fr       */
+/*   Updated: 2020/07/17 17:04:55 by demokgok         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include    <unistd.h>
 
-//int  ft_putchar( char c)
-//{
+int  ft_putchar( char c)
+{
 	write(1, &c, 1);
 	return (0);
-//}
+}
 
-//void ft_print_alphabet(void)
+void ft_print_alphabet(void);
 {
 	char a;
 
@@ -30,9 +30,4 @@
 	}
 
 	ft_putchar ('\n');
-}
-int main()
-{
-	ft_print_alphabet();
-	return (0);
 }
